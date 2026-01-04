@@ -1,18 +1,96 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📘 RETO: useState en React
 
-Currently, two official plugins are available:
+    Puedes copiarlo tal cual y ajustarlo si deseas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🏆 LOGRO
 
-## React Compiler
+    Uso del hook useState en React JS
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+📌 Descripción del reto
 
-Note: This will impact Vite dev & build performances.
+    Este proyecto tiene como objetivo aplicar el hook useState para manejar estados en una aplicación React, permitiendo la creación y eliminación dinámica de comentarios ingresados por el usuario.
 
-## Expanding the ESLint configuration
+🎯 Objetivos del reto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Maquetar una landing page basada en un diseño proporcionado
+    Implementar estados usando el hook useState
+    Gestionar comentarios ingresados por el usuario
+    Permitir eliminar comentarios dinámicamente
+    Desplegar la aplicación en GitHub Pages
+
+🛠️ Tecnologías utilizadas
+
+    React JS
+    Vite
+    JavaScript (ES6+)
+    HTML5
+    CSS3
+    GitHub Pages
+
+📁 Estructura final del proyecto
+
+    src/
+    ├── assets/
+    │   └── imágenes del proyecto
+    │
+    ├── components/
+    │   ├── Header.jsx
+    │   ├── Hero.jsx
+    │   ├── OurStory.jsx
+    │   ├── AlwaysFresh.jsx
+    │   ├── Menu.jsx
+    │   ├── Tasty.jsx
+    │   ├── Delight.jsx
+    │   │
+    │   └── Reviews/
+    │       ├── Footer.jsx
+    │       ├── ReviewForm.jsx
+    │       ├── ReviewList.jsx
+    │       └── ReviewCard.jsx
+    │
+    ├── App.jsx
+    ├── main.jsx
+    └── index.css
+
+⚛️ Uso del hook useState
+
+    El estado principal de los comentarios se maneja en el componente Footer.jsx, cumpliendo el principio de:
+
+        “El estado vive en el componente padre”
+
+    Desde allí:
+
+        ReviewForm agrega comentarios
+        ReviewList los lista
+        ReviewCard los muestra individualmente
+        Cada comentario puede eliminarse mediante un botón
+
+✨ Funcionalidades principales
+
+    Ingreso de comentarios mediante un input
+    Renderizado dinámico de comentarios
+    Eliminación individual de comentarios
+    Componentes reutilizables
+    Diseño responsive
+
+🚀 Instalación y ejecución local
+
+    npm install
+    npm run dev
+
+🌐 Despliegue
+
+    El proyecto está desplegado en GitHub Pages.
+
+        npm run build
+        npm run deploy
+
+🎓 Contexto académico
+
+    Proyecto desarrollado como parte del curso de Desarrollo Frontend, enfocado en el aprendizaje práctico de React, hooks y buenas prácticas de componentizac      ión.
+
+✍️ Autor
+
+    Richard Asto
